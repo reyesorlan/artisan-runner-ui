@@ -1,3 +1,5 @@
 /vendor
 .env
 composer.lock
+auth.json
+.phpunit.result.cache

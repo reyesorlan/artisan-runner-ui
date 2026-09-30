@@ -1,6 +1,8 @@
 {
     "name": "codesquirrel/artisan-runner-ui",
     "description": "Web UI to browse and run Laravel artisan commands",
+    "keywords": ["laravel", "artisan", "console", "web-ui", "artisan-runner", "artisan-command"],
+    "homepage": "https://github.com/reyesorlan/artisan-runner-ui",
     "type": "library",
     "license": "MIT",
     "authors": [
