@@ -1,0 +1,29 @@
+{
+    "name": "codesquirrel/artisan-runner-ui",
+    "description": "Web UI to browse and run Laravel artisan commands",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        { "name": "Orlan Reyes", "email": "orlan@codesquirrel.com.au" }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^12.0|^13.0",
+        "illuminate/console": "^12.0|^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0|^11.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": { "CodeSquirrel\\ArtisanRunnerUI\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "CodeSquirrel\\ArtisanRunnerUI\\Tests\\": "tests/" }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["CodeSquirrel\\ArtisanRunnerUI\\ArtisanRunnerUIServiceProvider"]
+        }
+    }
+}
